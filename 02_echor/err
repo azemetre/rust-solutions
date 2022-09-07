@@ -1,0 +1,9 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/echor`
+error: The following required arguments were not provided:
+    <TEXT>...
+
+USAGE:
+    echor [FLAGS] <TEXT>...
+
+For more information try --help
