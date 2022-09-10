@@ -69,7 +69,7 @@ pub fn run(config: Config) -> MyResult<()> {
     let num_files = config.files.len();
 
     for (file_num, filename) in config.files.iter().enumerate() {
-        match open(&filename) {
+        match open(filename) {
             Err(err) => eprintln!("{}: {}", filename, err),
             Ok(mut file) => {
                 if num_files > 1 {
