@@ -45,9 +45,18 @@ Use `?` instead of `Result::unwrap` to unpack an `Ok` value or propagate an
 
 ## Chapter 5
 
+Learnt how to read files in a variety of ways (strings, bytes).
+
 ### Word To Your Mother
 
+a `str` is an immutable, fixed-length string. The value that will be returned
+from the function is dynamically generated at runtime, so I must use `String`,
+which is a growable, heap-allocated structure.
+
 ## Chapter 6
+
+Learnt how to write output to files, and how to test them temporarily. Also
+slowly understanding traits and macros I think.
 
 ### Den Of Uniquity
 
